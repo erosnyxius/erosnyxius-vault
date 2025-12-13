@@ -1,0 +1,17 @@
+{
+  "underwater-theme@@underwater-colors-dark": "catppuccin-mocha",
+  "encore-settings@@theme-dark": "encore-theme-dark-materialocean",
+  "underwater-theme@@callout": "normal",
+  "underwater-theme@@workspace-bg": false,
+  "obsidian-prism-theme@@color-schemes-dt": "pt-color-scheme-pine-dt",
+  "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-mocha",
+  "maple-basic@@color-scheme": "color-use-custom",
+  "maple-editor@@font-maple": false,
+  "maple-editor@@setting-editor-p-spacing": 4,
+  "light-and-bright-theme@@dark-theme-settings": "dark-theme-alternate",
+  "light-and-bright-theme@@light-theme-settings": "theme-default",
+  "cupertino@@liquid-glass-off": false,
+  "cupertino@@liquid-glass-tint-off": false,
+  "cupertino@@windows-off": false,
+  "cupertino@@font-variant-off": true
+}

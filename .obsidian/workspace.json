@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "529563d79376e9aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a6f1006c301dd73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85c3bd72342259b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1Tools/Language/🐍 Python(Main).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🐍 Python(Main)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "54f5a4e96cd6b132",
+    "type": "split",
+    "children": [
+      {
+        "id": "880c923f1016beae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f97ef730aed99370",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c3e86a9f7e1f0c75",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d4200b372de5da9d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271.50471687316895
+  },
+  "right": {
+    "id": "eb61fc8a981e9a97",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc58dd264f0df808",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74cf98139d1243c9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1Tools/Language/🐍 Python.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 🐍 Python"
+            }
+          },
+          {
+            "id": "8877767e0222621c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1Tools/Language/🐍 Python.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 🐍 Python"
+            }
+          },
+          {
+            "id": "10f0c13293141491",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2af66547cb0f7697",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "17c99845784f40ee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1Tools/Language/🐍 Python(Main).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 🐍 Python(Main)"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "85c3bd72342259b4",
+  "lastOpenFiles": [
+    "3Backend/FastAPI From Basic To Advance.md",
+    "2For DSA (Everyday)/💡 Algorithms.md",
+    "1Tools/Language/🐍 Python(Main).md",
+    "1Tools/Database/🐘 PostgreSQL.md",
+    "1Tools/AI + Extras/Frontend.md",
+    "1Tools/AI + Extras/🤖 N8N.md",
+    "1Tools/AI + Extras/֎ Prompt Engineering.md",
+    "1Tools/Language/🦄 Mastery.md",
+    "1Tools/Language/🍦 JavaScript.md",
+    "1Tools/Database/🍃 MongoDB.md"
+  ]
+}

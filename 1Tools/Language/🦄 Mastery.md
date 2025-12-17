@@ -1,4 +1,6 @@
-## **Step 1 — Core Fundamentals**
+I'm going to learn "X" frameworks/library so which topics is must enough to become good at this!
+
+## **Step 1 - Core Fundamentals**
 
 * [ ] **Variables** – naming rules, assignment, reassignment, mutable vs immutable.
 * [ ] **Data Types** – integers, floats/doubles, strings, booleans, null/undefined.
@@ -37,7 +39,7 @@
 
 
 ---
-## **Step 2 — Data Structures & Algorithms**
+## **Step 2 - DSA**
 
 * [ ] **Arrays / Lists** – ordered sequences
 * [ ] **Tuples / Records** (if supported)
@@ -53,7 +55,7 @@
   * [ ] Traversal: tree/graph
 * [ ] **Time & Space Complexity** – Big-O notation
 
-## **Step 3 — Procedural Programming**
+## **Step 3 - Procedural Programming**
 
 * [ ] Top-down structured programming
 * [ ] Functions & modular programming
@@ -61,7 +63,7 @@
 
 ---
 
-## **Step 4 — Object-Oriented Programming (if supported)**
+## **Step 4 - OOP (if supported)**
 
 * [ ] **Classes & Objects**
 
@@ -77,7 +79,7 @@
 * [ ] **Design principles (SOLID, DRY)**
 
 ---
-## **Step 5 — Functional Programming (if supported)**
+## **Step 5 - Functional Programming (if supported)**
 
 * [ ] Pure functions – same input → same output, no side effects
 * [ ] Immutability – never modify existing data
@@ -86,7 +88,7 @@
 * [ ] Function composition – combining small functions
 
 ---
-## **Step 6 — Memory, Type System & Error Handling**
+## **Step 6 - Memory, Type System & Error Handling**
 
 * [ ] **Memory model**
 
@@ -107,7 +109,7 @@
   * [ ] Graceful handling
 
 ---
-## **Step 7 — Runtime Execution Model**
+## **Step 7 - Runtime Execution Model**
 
 * [ ] Call Stack & stack frames
 * [ ] Parameter passing: by value, by reference, copy-on-write
@@ -118,7 +120,7 @@
 * [ ] Async / Await / Event Loop (if supported)
 
 ---
-## **Step 8 — Compilation / Interpretation Mechanics**
+## **Step 8 - Compilation / Interpretation Mechanics**
 
 * [ ] Lexer / Tokenization
 * [ ] Parser & AST (Abstract Syntax Tree)
@@ -131,7 +133,7 @@
 * [ ] Import / Export rules / Visibility
 
 ---
-## **Step 9 — Advanced Language Power Features**
+## **Step 9 - Advanced Language Power Features**
 
 * [ ] Generics / Templates (if supported)
 * [ ] Pattern Matching (if supported)
@@ -144,7 +146,7 @@
 * [ ] Custom Iterators / Iterable Protocol (if supported)
 
 ---
-## **Step 10 — Development Workflow & Professional Skills**
+## **Step 10 - Development Workflow & Professional Skills**
 
 * [ ] Debugging – breakpoints, stepping, inspecting variables
 * [ ] Logging & Tracing – monitoring program execution

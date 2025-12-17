@@ -225,8 +225,103 @@ print('Slice 2: ', Country[-4::1]) # 0 আসলে কিছু দিব ন�
 
 ```python
 # Some Usefull String Methods
+MainString = 'Welcome To String Methods!'
 
 
+# সব Lower Case করতে 
+LowerString = MainString.lower()
+
+print(f'.lower() -> {LowerString}')
+
+
+# সব Lower Case করতে 
+UppperString = MainString.upper()
+
+print(f'.upper() -> {UppperString}')
+
+
+# কোনো কিছু Replace(যতবার থাকে তত বার) করে অন্য কিছু বসাতে 
+ReplaceString = MainString.replace(' ', '-')
+
+print(f'.replace() -> {ReplaceString}')
+
+
+# . দিয়ে একই String এ একাধিক String Method Use করা যাবে !! 
+MultipleMethod = MainString.upper().replace(' ', '()')
+
+print(f'.upper().replace() -> {MultipleMethod}')
+
+
+# String এর 1st এর কিছু থাকলে Remove করতে 
+RemoveFirst = MainString.removeprefix('Welcome ')
+
+print(f'.removeprefix() -> {RemoveFirst}')
+
+
+# String এর Last এর কিছু থাকলে Remove করতে 
+RemoveLast = MainString.removesuffix('Methods!')
+
+print(f'.removesuffix() -> {RemoveLast}')
+```
+
+```python
+MainString = '*!**Hello, World!***'
+
+# Entire String Both Side থেকে * AND ! Remove করার জন্য 
+StripString = MainString.strip('*!')
+
+print(f'.strip() -> {StripString}')
+
+
+# Entire String Left/Right থেকে * AND ! Remove করার জন্য 
+LeftStripString = MainString.lstrip('*!')
+RightStripString = MainString.rstrip('*!')
+
+print(f'.lstrip() -> {LeftStripString}')
+print(f'.rstrip() -> {RightStripString}')
+
+
+MainString = 'i Love MY CounTRY, banglaDesh!'
+
+# String Each Word এর 1st Letter Capitalize বাকিগুল Lower করতে 
+CapString = MainString.title()
+
+print(f'.title() -> {CapString}')
+
+
+# String এর 1st এ Specified কিছু থাকলে True Return করবে 
+Check = MainString.title().startswith('I')
+if Check:
+    print('Yes, I Existed!')
+else:
+    print('No, I Not Existed!')
+```
+
+```python
+# Must Know String Method .split()
+Languages = 'Python JavaScript Rust'
+
+Easy, Medium, Hard = Languages.split()
+
+print(Easy)
+print(Medium)
+print(Hard)
+print()
+
+Languages = 'Python, JavaScript, Rust'
+
+Easy, Medium, Hard = Languages.split(', ')
+
+print(Easy)
+print(Medium)
+print(Hard)
+
+
+Location = 'backend/lib/fastapi'
+
+Parts = Location.split('/') # একাধিক হলে List Return করবে 
+
+print(Parts)
 ```
 
 #### `Type Conversion`
@@ -618,6 +713,16 @@ Num = int(input('Enter Your Number: '))
 while Num > 0:
     print(Num % 10)
     Num = Num // 10 # int লাগবে তাই !!
+    
+    
+# While Loop এর সেরা Use Case
+while True:
+    N = int(input("What's N? "))
+    if N > 0:
+        break
+
+for i in range(N):
+    print(i)
 ```
 
 ```python
@@ -967,7 +1072,7 @@ print(f'myList = {myList}')
 # 1. Index Values Use করে 2. enumerate() Use করে যা পরে দেখবো!
 
 print('Method - 1')
-# 1. Index Values Use করে
+# 1. Index Values Use করে / Items
 
 # Length বের করতে হবে কারন For Loop কাজ করে Specific Number এর উপর!
 
@@ -975,6 +1080,13 @@ print('Method - 1')
 
 for i in range(len(myList)):
     print(f'Index [{i}] = {myList[i]}') # Method - 1 Use করবো Always
+    
+    
+# Another Way
+students = ['Harry', 'Harmonie', 'Ron']
+
+for student in students:
+    print(student)
 ```
 
 ```python
@@ -1263,4 +1375,52 @@ def subNum(numA: int, numB: int) -> None:
 subNum(10, 30)
 ```
 
+```python
+studentDict = {
+    'Shourav' : 'BU',
+    'Ohi' : 'BUET',
+    'Mahmud' : 'AUST',
+    'Omor' : 'NSU'
+}
 
+
+# শুধু মাত্র Name = Key Show করবে
+for student in studentDict:
+    print(student)
+
+
+# Name = Key, Varsity = Value Show করবে
+for student in studentDict:
+    print(student, studentDict[student], sep=', ')
+```
+
+```python
+# যখন অনেক গুলো Dictionart নিয়ে একটা List হবে তখন 
+
+studentTable = [
+    {   
+        'name': 'Mahtabul Shourav',
+        'varsity': 'BU',
+        'location': 'Mohammadpur'
+    },
+    {   
+        'name': 'Ohi Aryan',
+        'varsity': 'BUET',
+        'location': 'Pura Dhaka'
+    },
+    {   
+        'name': 'Mahmud Hossain',
+        'varsity': 'AUST',
+        'location': None
+    },
+    {   
+        'name': 'Omor Faruq',
+        'varsity': 'NSU',
+        'location': 'Bashundhara'
+    }
+]
+
+
+for student in studentTable:
+    print(student['name'], student['varsity'], student['location'], sep=', ')
+```

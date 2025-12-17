@@ -1,12 +1,12 @@
-### Foundation (HTML, Modern JavaScript/TypeScript, React Basics)
+### Foundation 
 
-| **Topic**                                    | **Key Concepts to Master**                                                                                                                                                                                                    | **Goal for shadcn/ui**                                                                                                                 |
-| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Modern JavaScript (ES6+) & TypeScript** | Variables (`let`, `const`), Arrow Functions, Destructuring, Promises/`async`/`await` (for backend communication), Modules (ES Modules). **TypeScript Basics**: Types, Interfaces/Types, basic type usage for component props. | Essential for understanding component logic and integrating with backend APIs (data fetching). TypeScript makes API contracts clearer. |
-| **2. React Fundamentals**                    | **JSX** (how HTML and JS are mixed), **Functional Components**, **Props** (passing data), **State** (`useState`) (simple component interactivity), **Hooks** (`useEffect` for side effects, often data fetching).             | You need to understand how components receive data (Props) and manage basic local behavior (State) to integrate backend data.          |
-| **3. Component Interaction**                 | **Event Handlers** (e.g., `onClick`, `onChange`), **Conditional Rendering** (showing/hiding parts of UI), **Lists** (rendering data arrays using `.map()`).                                                                   | Needed to make buttons submit forms, show validation errors, and display data fetched from your backend.                               |
+| **Topic**                                    | **Key Concepts to Master**                                                                                                                                                                                        | **Goal for shadcn/ui**                                                                                                                 |
+| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Modern JavaScript (ES6+) & TypeScript** | Variables (`let`, `const`), Arrow Functions, Destructuring, Promises/`async`/`await` (for backend communication), Modules (ES Modules).                                                                           | Essential for understanding component logic and integrating with backend APIs (data fetching). TypeScript makes API contracts clearer. |
+| **2. React Fundamentals**                    | **JSX** (how HTML and JS are mixed), **Functional Components**, **Props** (passing data), **State** (`useState`) (simple component interactivity), **Hooks** (`useEffect` for side effects, often data fetching). | You need to understand how components receive data (Props) and manage basic local behavior (State) to integrate backend data.          |
+| **3. Component Interaction**                 | **Event Handlers** (e.g., `onClick`, `onChange`), **Conditional Rendering** (showing/hiding parts of UI), **Lists** (rendering data arrays using `.map()`).                                                       | Needed to make buttons submit forms, show validation errors, and display data fetched from your backend.                               |
 
-### Styling and Customization (Tailwind CSS)
+### Styling and Customization 
 
 |**Topic**|**Key Concepts to Master**|**Goal for shadcn/ui**|
 |---|---|---|
@@ -14,7 +14,7 @@
 |**2. Responsiveness**|**Breakpoints** (`sm:`, `md:`, `lg:` prefix).|To ensure components look correct on mobile and desktop, which is a common customization task.|
 |**3. Tailwind/CSS Variables**|Understanding the concept of **CSS variables** (`--primary`, `--background`, etc.) and how to modify them (often in `globals.css`) for theming.|This is the primary way to change the colors/theme of `shadcn/ui` across your application without modifying every single component file.|
 
-### Component Libraries (Shadcn/ui & Radix UI)
+### Component Libraries 
 
 |**Topic**|**Key Concepts to Master**|**Goal for shadcn/ui**|
 |---|---|---|

@@ -1,7 +1,7 @@
 ### Setup Python Virtual Environment 
 
 ```bash
-py -3 -m venv venv // Also Upgrade pip
+py -3 -m venv venv # Also Upgrade pip
 ```
 
 ### Select Virtual Environment Interpreter
@@ -28,7 +28,7 @@ pip freeze
 ### Understanding Basic Code
 
 ```python
-# File -> main.py
+# main.py
 from fastapi import FastAPI
 
 app = FastAPI() # app হলো Convention কিন্তু অন্য কিছুও দেওয়া যাবে!
@@ -48,12 +48,6 @@ uvicorn main:app --reload
 
 For Production 
 uvicorn main:app 
-
-INFO:     Started server process [10736]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 
-(Press CTRL+C to quit)
 ```
 
 আরেকটা Path Operation Function Create করার জন্য !! 

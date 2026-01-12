@@ -862,6 +862,25 @@ returnedValue = studentMarks(76)
 print(f'studentMarks(76) = {returnedValue}')
 ```
 
+```python
+# Multi-Line Return Strings
+
+def main():
+    get_ice_cream = input('Which flavor ice cream do you need ?\n')
+    amount = int(input('How many do you want ?\n'))
+
+    print(ice_cream(get_ice_cream,amount))
+
+def ice_cream(flavor, amount):
+    return f"""
+Axios Ice Cream Shop
+Flavor: {flavor} 
+Amount: {amount}
+"""
+
+main()
+```
+
 #### `String Literals`
 
 ```python
@@ -1375,6 +1394,8 @@ def subNum(numA: int, numB: int) -> None:
 subNum(10, 30)
 ```
 
+Dictionary
+
 ```python
 studentDict = {
     'Shourav' : 'BU',
@@ -1423,4 +1444,57 @@ studentTable = [
 
 for student in studentTable:
     print(student['name'], student['varsity'], student['location'], sep=', ')
+```
+
+Dictionary Key Not Existed Then
+
+```python
+def main():
+    course = {
+        'name' : 'Computer Networks',
+        'grade' : 'A'
+    }
+
+    # Adding New Keys To Dictionary Way - 1
+    course['year'] = 2025
+
+    # Adding New Keys To Dictionary Way - 2
+    course.update({
+        'teacher': 'Mahtabul Shourav'
+    })
+
+    print(get_report(course))
+
+def get_report(course):
+    return f"""
+---------- Course Report ----------
+Course Name: {course.get('name', 'Name Key Is Missing!')}
+Course Teacher: {course.get('teacher', 'Teacher Key Is Missing!')}
+Grade: {course.get('grade', 'Grade Key Is Missing!')}
+Year: {course.get('year', 'Year Key Is Missing!')}
+"""
+
+main()
+```
+
+Access Keys And Values
+
+```python
+products_price = {
+    'Ice Cream' : 500,
+    'Chips': 40,
+    'Coke': 100
+}
+
+def main():
+    
+    # Loop Over Keys
+    for product in products_price.keys():
+        print(f'{product} = {products_price[product]} /- Tk')
+
+    # Loop Over Values
+    for price in products_price.values():
+        print(f'With 10% Vat {price * 0.1 + price}')
+
+main()
 ```

@@ -7,6 +7,8 @@
 | **3. Component Interaction**                 | **Event Handlers** (e.g., `onClick`, `onChange`), **Conditional Rendering** (showing/hiding parts of UI), **Lists** (rendering data arrays using `.map()`).                                                       | Needed to make buttons submit forms, show validation errors, and display data fetched from your backend.                               |
 
 ### Styling and Customization 
+https://youtu.be/X6FIydgCzzY
+https://youtu.be/kuY9MehvHh4
 
 |**Topic**|**Key Concepts to Master**|**Goal for shadcn/ui**|
 |---|---|---|

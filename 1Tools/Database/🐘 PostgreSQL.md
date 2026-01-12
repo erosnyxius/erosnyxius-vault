@@ -16,9 +16,6 @@ A type of database management system that stores data in a structured format usi
 
 **SQL**
 Structured Query Language is a standard language for storing, manipulating and retrieving data in databases
-
-### 📘 Installation 
-
 ### 📘 Phase 1 — Fundamentals
 
 #### Database vs Schema vs Table
@@ -95,7 +92,6 @@ CREATE TABLE table_name (
     column_name3 DATA_TYPE [CONSTRAINTS],
     ...
 );
-
 ```
 
 After Execution -> Return Successful ! 
@@ -113,11 +109,8 @@ Adding Data into a Table
 
 Syntax
 ```sql
-INSERT INTO table_name (column1, column2, column3)
-VALUES (
-value1, value2, value3
-.. , .. , ..
-);
+INSERT INTO table_name (column1, column2, column3) VALUES 
+(value1, value2, value3);
 ```
 
 Reading Data from a Table
@@ -175,8 +168,6 @@ VALUES
 1. If We Run This Query Then Override 101 ID
 2. Avoid NULL -> To Solve This, Learn Below!
 ### 📘 Phase 2 — Data Types and Constraint
-
-
 Data Type is an attribute that specifies the type of data in a column of database - (Table)
 
 **Data Types (Most Used)** 

@@ -1,3 +1,0 @@
-
-## Understanding Codebase Using AI
-

@@ -1,22 +1,20 @@
-### 📘 Pre-requisite
-
-**Database**
+`Database`
 
 An organized collection of structured information, or data, typically stored electronically in a computer system
 
-**DBMS**
+`DBMS`
 A database is usually controlled by a database management system (DBMS)
 
 ![[DBMS.jpg]]
 
-**RDBMS**
+`RDBMS`
 A type of database management system that stores data in a structured format using rows and columns (tabular)
 
 ![[DMBS-RDBMS.webp]]
 
-**SQL**
+`SQL`
 Structured Query Language is a standard language for storing, manipulating and retrieving data in databases
-### 📘 Phase 1 — Fundamentals
+### `📘 Phase 1 — Fundamentals`
 
 #### Database vs Schema vs Table
 * **Database**: Top-level container that holds schemas.
@@ -30,13 +28,11 @@ PostgreSQL Server
         └── Table (e.g., employees, orders)
 ```
 
-#### Database Create, DROP, List & Change
+#### `List & Create Database`
 
-**Database**
-
-- To Write Query -> Go To Databases -> Choose Your Database
+- To Write Query → Go To Databases → Choose Your Database
 - Click "Query Tool"
-- Uppercase or Lowercase It Does Not Matter Just Ensure ';' 
+- Uppercase or Lowercase It Does Not Matter Just Ensure  ';' 
 
 1. List down **existing Databases**
 ```sql
@@ -74,28 +70,22 @@ Or Use pgAdmin
 DROP DATABASE <db_name>;
 ```
 
-**Run Query Using .sql File**
-- Create .sql File For Writing Query 
-- Change Database and Enter \i File_Name.sql In Terminal 
+#### `Table Creating, Data Inserting, Data Updating & Data Deleting`
 
-#### CRUD (Create, Read, Update, Delete) Operations
-
-Creating a Table
-A table is a collection of related data held in a table format
-within a database 
-
-Syntax
+**Creating a Table**
 ```sql
 CREATE TABLE table_name (
-    column_name1 DATA_TYPE [CONSTRAINTS],
-    column_name2 DATA_TYPE [CONSTRAINTS],
-    column_name3 DATA_TYPE [CONSTRAINTS],
+    col_name DATA_TYPE [CONSTRAINTS],
+    col_name DATA_TYPE [CONSTRAINTS],
+    col_name DATA_TYPE [CONSTRAINTS],
     ...
 );
+-- Column Name Capital Wise লিখতে গেলে বা Select করতে "" Use করবো
+-- String এর জন্য '' Use করবো
 ```
 
-After Execution -> Return Successful ! 
-Verify -> Schemas -> Public -> Tables -> table_name -> Columns!
+After Execution → Return Successful ! 
+Verify → Schemas → Public → Tables → TableName → Columns!
 
 ```cmd
 \c <db_name>;
@@ -105,80 +95,68 @@ Verify -> Schemas -> Public -> Tables -> table_name -> Columns!
 \dt = Shows All Tables !
 ```
 
-Adding Data into a Table
+**Inserting Data Into A Table**
 
-Syntax
 ```sql
-INSERT INTO table_name (column1, column2, column3) VALUES 
+INSERT INTO table_name (col_name, col_name, col_name) VALUES 
 (value1, value2, value3);
 ```
 
-Reading Data from a Table
+**Reading Data From A Table**
 
-Syntax
 ```sql
 SELECT * FROM table_name; -- (FOR ALL COLUMN)
 
-SELECT column1_name,column2_name FROM table_name; -- (SPECIFIC)
+SELECT col_name,col_name FROM table_name; -- (SPECIFIC)
 ```
 
-Update Data from a Table
+**Updating Data From A Table**
 
-Syntax
 ```sql
 UPDATE table_name
 	SET column_name1 = Value1, column_name2 = Value2..  
 	WHERE CONDITION;
 ```
 
-Delete Data from a Table
+**Deleting Data From A Table**
 
-Syntax
 ```sql
 DELETE FROM table_name
 WHERE CONDITION;
 ```
 
-Delete Data from a Table
+**Deleting A Table**
 
 ```sql
 DROP TABLE IF EXISTS table_name;
 ```
 
-Delete all data but **keep the table structure**
+**Delete All Data But Keep The Table Structure**
 
 ```sql
 TRUNCATE TABLE table_name;
 ```
 
-**To delete (drop) a column from a table**
+**To Delete A  Specific Column From A Table**
 
 ```sql
 ALTER TABLE table_name
 DROP COLUMN column_name;
 ```
 
-**Case To Remember!**
-```sql
-INSERT INTO table_name(column1_name,column2_name,column3_name)
-VALUES 
-(101,'Alex','Dhaka');
-```
+### `📘 Phase 2 — Data Types and Constraint`
 
-1. If We Run This Query Then Override 101 ID
-2. Avoid NULL -> To Solve This, Learn Below!
-### 📘 Phase 2 — Data Types and Constraint
-Data Type is an attribute that specifies the type of data in a column of database - (Table)
+`Data Types`
 
-**Data Types (Most Used)** 
+Data Type is an attribute that specifies the type of data
 - Numeric - INT, DOUBLE, FLOAT, DECIMAL
 - String - VARCHAR, VARCHAR(LIMIT) 
 - Date - DATE
 - Boolean - BOOLEAN (TRUE, FALSE)
-- Just Remember That Now Will See Later!
-***Visit PostgreSQL Documentations For Storage Size!!***
 
-A constraint in PostgreSQL is a rule applied to a column 
+`Constraint`
+
+**A constraint in PostgreSQL is a rule applied to a column** 
 #### PRIMARY KEY
 * **Syntax:** `column_name DATA_TYPE PRIMARY KEY`
 * **Purpose:** Unique identifier for each row.
@@ -247,8 +225,8 @@ CREATE TABLE users (
 ```sql
 -- যখন Condition Check করার দরকার তখন CHECK() Use করবো !!
 CREATE TABLE users (
-    age INT CHECK (age >= 0),                 -- age must be positive
-    price NUMERIC(10,2) CHECK (price >= 0)    -- price must be >= 0
+    age INT CHECK (age >= 0),                 -- Age Must Be Positive
+    price NUMERIC(10,2) CHECK (price >= 0)    -- Price Must Be >= 0
 );
 ```
 

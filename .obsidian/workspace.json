@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "FastAPI From Basic To Advance"
             }
+          },
+          {
+            "id": "e023c4a03cfe9937",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1Tools/AI + Extras/Context & Composer.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Context & Composer"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3Backend/FastAPI From Basic To Advance.md",
+                "file": "1Tools/AI + Extras/Context & Composer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FastAPI From Basic To Advance"
+              "title": "Outline of Context & Composer"
             }
           }
         ],
@@ -183,23 +198,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "85c3bd72342259b4",
+  "active": "e023c4a03cfe9937",
   "lastOpenFiles": [
-    "2For DSA (Everyday)/💡 Algorithms.md",
-    "1Tools/Language/🦄 Mastery.md",
+    "1Tools/AI + Extras/Frontend JS.md",
+    "3Backend/JavaScript Backend.md",
+    "3Backend/Python Backend.md",
+    "3Backend/Supabase BAAS.md",
+    "1Tools/Database/🐘 PostgreSQL.md",
+    "1Tools/AI + Extras/ReactJS.md",
+    "1Tools/AI + Extras/Context & Composer.md",
+    "1Tools/AI + Extras/Frontend.md",
+    "1Tools/AI + Extras/🤖 N8N.md",
+    "1Tools/Version Control/🐱 GitHub & Git.md",
     "1Tools/Language/🐍 Python(Main).md",
     "1Tools/Language/🍦 JavaScript.md",
-    "1Tools/Database/🐘 PostgreSQL.md",
-    "3Backend/FastAPI From Basic To Advance.md",
-    "1Tools/AI + Extras/ReactJS.md",
-    "1Tools/AI + Extras/Frontend.md",
-    "1Tools/AI + Extras/Enough JavaScript For Frontend.md",
-    "1Tools/AI + Extras/LLMs for Context & Composition.md",
-    "1Tools/Database/Supabase Edge Function.md",
+    "2For DSA (Everyday)/💡 Algorithms.md",
+    "1Tools/Language/🦄 Mastery.md",
     "1Tools/Database/🍃 MongoDB.md",
-    "1Tools/AI + Extras/🤖 N8N.md",
     "2For DSA (Everyday)/🛢 Data Structure.md",
-    "1Tools/Version Control/🐱 GitHub & Git.md",
     "1Tools/AI + Extras/Understanding Codebase Using AI.md",
     "0DailyHealth/Target For Gaining Muscles Within 3 Months!.md"
   ]
